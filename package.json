@@ -1,0 +1,24 @@
+{
+  "name": "fibonacci-express-react",
+  "version": "0.0.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "axios": "^0.19.0",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "jsonwebtoken": "^7.4.2",
+    "jwt-decode": "^2.2.0",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.6.1",
+    "nodemon": "^1.18.3",
+    "sequelize": "^6.0.0"
+  }
+}
